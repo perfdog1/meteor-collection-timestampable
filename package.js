@@ -10,7 +10,7 @@ Package.onUse(function(api) {
 
   api.use([
     'check',
-    'coffeescript',
+    'coffeescript@2.0.0',
     'underscore'
   ]);
 
