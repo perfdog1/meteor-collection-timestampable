@@ -1,12 +1,12 @@
 Package.describe({
-  git: 'https://github.com/zimme/meteor-collection-timestampable.git',
-  name: 'zimme:collection-timestampable',
+  git: 'https://github.com/rodcope1/meteor-collection-timestampable.git',
+  name: 'rodcope1:collection-timestampable',
   summary: 'Add timestamps to collections',
-  version: '1.0.9'
+  version: '2.0.0'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.8');
 
   api.use([
     'check',
@@ -15,8 +15,8 @@ Package.onUse(function(api) {
   ]);
 
   api.use([
-    'matb33:collection-hooks@0.7.6',
-    'zimme:collection-behaviours@1.1.0'
+    'matb33:collection-hooks@0.8.3',
+    'rodcope1:collection-behaviours@2.0.0'
   ]);
 
   api.use([
@@ -25,7 +25,7 @@ Package.onUse(function(api) {
     'aldeed:simple-schema@1.0.3'
   ], ['client', 'server'], {weak: true});
 
-  api.imply('zimme:collection-behaviours');
+  api.imply('rodcope1:collection-behaviours');
 
   api.addFiles('timestampable.coffee');
 });
