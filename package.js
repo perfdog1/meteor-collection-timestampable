@@ -2,7 +2,7 @@ Package.describe({
   git: 'https://github.com/rodcope1/meteor-collection-timestampable.git',
   name: 'rodcope1:collection-timestampable',
   summary: 'Add timestamps to collections',
-  version: '3.1.5'
+  version: '3.1.6'
 });
 
 Package.onUse(function(api) {
@@ -26,5 +26,5 @@ Package.onUse(function(api) {
 
   api.imply('rodcope1:collection-behaviours');
 
-  api.addFiles('timestampable.coffee');
+  api.mainModule('timestampable.coffee');
 });
