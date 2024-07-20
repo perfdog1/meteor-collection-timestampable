@@ -10,19 +10,18 @@ Package.onUse(function(api) {
 
   api.use([
     'check',
-    'coffeescript@2.0.0',
+    'coffeescript@2.7.0',
     'underscore'
   ]);
 
   api.use([
-    'matb33:collection-hooks@1.3.2',
+    'matb33:collection-hooks@1.3.3',
     'rodcope1:collection-behaviours@3.0.0'
   ]);
 
   api.use([
-    'aldeed:autoform@4.0.0 || 5.0.0',
     'aldeed:collection2@4.0.0',
-    'aldeed:simple-schema@1.0.3'
+    'aldeed:simple-schema@1.1.3'
   ], ['client', 'server'], {weak: true});
 
   api.imply('rodcope1:collection-behaviours');
