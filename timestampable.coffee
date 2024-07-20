@@ -1,5 +1,6 @@
-af = Package['aldeed:autoform']
-c2 = Package['aldeed:collection2']
+af = undefined
+import 'meteor/aldeed:collection2/static'
+c2 = Collection2
 import SimpleSchema from "meteor/aldeed:simple-schema"
 
 defaults =
