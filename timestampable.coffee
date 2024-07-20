@@ -1,6 +1,6 @@
 af = Package['aldeed:autoform']
 c2 = Package['aldeed:collection2']
-SimpleSchema = Package['aldeed:simple-schema']?.SimpleSchema
+import SimpleSchema from "meteor/aldeed:simple-schema"
 
 defaults =
   createdAt: 'createdAt'
