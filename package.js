@@ -2,14 +2,14 @@ Package.describe({
   git: 'https://github.com/perfdog1/meteor-collection-timestampable.git',
   name: 'perfdog1:collection-timestampable',
   summary: 'Add timestamps to collections',
-  version: '3.1.6'
+  version: '3.1.7'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('3.0.1');
 
   api.use([
-    'check',
+    'check@1.4.0',
     'coffeescript@2.0.0',
     'underscore'
   ]);
