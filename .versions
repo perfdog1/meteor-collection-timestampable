@@ -40,7 +40,7 @@ mongo-id@1.0.9
 npm-mongo@6.10.2
 ordered-dict@1.2.0
 perfdog1:collection-behaviours@3.0.1
-perfdog1:collection-timestampable@3.1.10
+perfdog1:collection-timestampable@3.1.11
 promise@1.0.0
 random@1.2.2
 react-fast-refresh@0.2.9
