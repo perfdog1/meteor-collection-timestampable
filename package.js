@@ -2,7 +2,7 @@ Package.describe({
   git: 'https://github.com/perfdog1/meteor-collection-timestampable.git',
   name: 'perfdog1:collection-timestampable',
   summary: 'Add timestamps to collections',
-  version: '3.1.8'
+  version: '3.1.9'
 });
 
 Package.onUse(function(api) {
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   ]);
 
   api.use([
-    'aldeed:collection2@4.0.0',
+    'aldeed:collection2@2.10.0 || 4.0.0',
     'aldeed:simple-schema@1.13.0'
   ], ['client', 'server'], {weak: true});
 
