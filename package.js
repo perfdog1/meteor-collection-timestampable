@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'check@1.4.0',
     'coffeescript@2.0.0',
-    'underscore'
+    'underscore@1.6.0'
   ]);
 
   api.use([
